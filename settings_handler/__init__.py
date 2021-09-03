@@ -9,7 +9,11 @@ load_dotenv()
 class Settings(BaseSettingsHandler):
     port = os.getenv('PORT')
     host = os.getenv('HOST')
+    spark = os.getenv('SPARK')
     workers = os.getenv('WORKERS')
+    dbconn = os.getenv('DB')
+    s3bucket = os.getenv('BUCKET_NAME')
+    region = os.getenv('REGION')
     class Config:
         case_insensitive = True
 

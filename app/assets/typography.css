@@ -1,0 +1,32 @@
+body {
+    background: url("fondo_bonito_1.png");
+}
+
+#content {
+    position: relative;
+    display: inline;
+}
+
+#left-graphs {
+    width: 49%;
+    float: left;
+    display: inline;
+    margin: 10px 10px;
+}
+
+#right-graphs {
+    width: 49%;
+    float: right;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.graph {
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+
+.add-graph-button {
+    width: 49%;
+}

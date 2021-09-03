@@ -1,8 +1,16 @@
 numpy
+pandas
+matplotlib
 uvicorn == 0.11.8
 python-dotenv == 0.14.0
 dotenv-settings-handler == 0.0.3
 fastapi
 boto3 == 1.14.48
 python-multipart
+gunicorn
+dash
+dash_bootstrap_components
+dash_core_components
+dash_html_components
+plotly
 requests
